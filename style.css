@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: pink;
+    color: #fff;
+    
+}
+
+.link a{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 23px;
+    margin-top: 7em;
+}
+
+
+.link a:hover{
+  color: #ff1493;
+}
+
+
+
+.links {
+ text-align: right;
+
+}
+
+.links a{
+    color: #fff;
+    padding: 5px;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+
+
+.one{
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #a31a68;
+    color: #fff;
+}
+
+
+
+.content{
+    justify-content: center;
+     /* Creates the box with a 2px solid black border */
+    padding: 15px 30px; 
+    margin-right: 10px;          /* Adds space between the text and the border */
+    width: fit-content;      /* Ensures the box adjusts to the text width */
+  margin-top: 2em;
+  margin-left: 25%;
+  background-color:#fff0f5;
+  border-radius: 20px;
+  color: #ff1493;
+}
+
+.content h1{
+    margin-bottom: 2em;
+    margin-left: 5em;
+}
+.real input{
+    padding: 8px;
+    margin-left: 17em;
+    background: pink;
+    color: #fff;
+}
+
+
+
+.real p{
+margin-left: 7em;
+margin-top: 10px;
+
+}
+
+button{
+    margin-left: 17em;
+    margin-top: 30px;
+    padding: 5px 10px;
+    border: 1px solid rgb(171, 75, 124);
+    background-color:#a31a68;;
+    color: #fff;
+}
+
+
+
+
+
+  .about-us {
+    background-color: #fff0f5; /* Soft lavender-pink background */
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid #ff69b4;  /* Hot pink border */
+    width: 85%;
+    max-width: 900px;
+    margin: 40px auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .about-us h1 {
+    font-size: 2.8em;
+    color: #ff1493;  /* Bright pink for title */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.2em;
+    line-height: 1.7;
+    color: #8a2be2;  /* Purple color for the text */
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .about-us h1{
+    color: #ff1493;
+    text-align: center;
+  }
+  
+  .about-us p:first-child {
+    font-weight: bold;
+  }
+  
+  .about-us .brand-name {
+    font-style: italic;
+    font-weight: bold;
+    color: #ff1493;  /* Bright pink for emphasis */
+  }
+  
+  button {
+    background-color: #a31a68;; /* Hot pink button */
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button:hover {
+    background-color: rgb(220, 219, 219);; /* Lighter pink on hover */
+    color: black;
+  }
+
+
+
+
+
+
+
+
+
+
+  /*-------sign up-------*/
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color:pink;  /* Light pink background */
+    color: #4b0082;  /* Deep purple for text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .signup-container {
+    background-color: #fff0f5; /* Soft lavender-pink background */
+    padding: 40px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: 60px auto;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-container h1 {
+    color: #ff1493;  /* Bright pink */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .signup-container p {
+    color: #8a2be2;  /* Purple */
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #4b0082; /* Deep purple */
+  }
+  
+  .signup-form input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ff69b4;  /* Hot pink border */
+    border-radius: 10px;
+    font-size: 1em;
+    width: 100%;
+  }
+  
+  .signup-form input:focus {
+    border-color: #ff1493; /* Focus effect with bright pink */
+    outline: none;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .terms input {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #ff1493;  /* Hot pink */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #ff69b4; /* Lighter pink on hover */
+  }
